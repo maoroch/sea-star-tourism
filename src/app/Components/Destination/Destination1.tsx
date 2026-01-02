@@ -16,7 +16,7 @@ const Destination1 = () => {
       ]; 
 
     return (
-        <section className="popular-destination-section section-padding pt-0">
+        <section className="popular-destination-section section-padding pt-10">
             <div className="car-shape float-bob-x">
                 <Image src="/assets/img/destination/car.png" alt="img" width={134} height={124}   />
             </div>

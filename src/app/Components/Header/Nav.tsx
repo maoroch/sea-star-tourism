@@ -73,7 +73,9 @@ export default function Nav({ setMobileToggle }) {
         </DropDown>
       </li> 
       
-      <li className="menu-item-has-children">
+{ 
+  /* 
+        <li className="menu-item-has-children">
         <Link href="#">Pages</Link>
         <DropDown>
           <ul>
@@ -133,6 +135,8 @@ export default function Nav({ setMobileToggle }) {
           Контакты
         </Link>
       </li>
+  */
+}
     </ul>
   );
 }

@@ -16,10 +16,10 @@ const Contact = () => {
                                 </div>
                                 <div className="content">
                                     <h3>
-                                        Our Address
+                                        Наш адрес
                                     </h3>
                                     <p>
-                                        2464 Royal Ln. Mesa, New Jersey 45463.
+                                        Проспект Достык, 162 к4, Алматы
                                     </p>
                                 </div>
                             </div>
@@ -33,10 +33,10 @@ const Contact = () => {
                                 </div>
                                 <div className="content">
                                     <h3>
-                                        <a href="mailto:info@tripco.com">info@tripco.com</a>
+                                        <a href="mailto:info@tripco.com">info@sea-star-tourism.kz</a>
                                     </h3>
                                     <p>
-                                        Email us anytime for anykind <br/> ofquety.
+                                        Почта для написания вопросов
                                     </p>
                                 </div>
                             </div>
@@ -50,10 +50,10 @@ const Contact = () => {
                                 </div>
                                 <div className="content">
                                     <h3>
-                                        <a href="tel:Hot+208-666-0112">Hot:+208-666-0112</a>
+                                        <a href="tel:Hot+208-666-0112">+7‒707‒555‒85‒84</a>
                                     </h3>
                                     <p>
-                                        Call us any kind suppor,we will wait for it.
+                                        единый номер
                                     </p>
                                 </div>
                             </div>
@@ -71,38 +71,39 @@ const Contact = () => {
                             <div className="contact-us-contact">
                                 <div className="section-title">
                                     <span className="sub-title text-white wow fadeInUp">
-                                        Contact us
+                                        Получите консультацию
                                     </span>
                                     <h2 className=" text-white wow fadeInUp wow" data-wow-delay=".2s">
-                                        Send Message Anytime
+                                        Связаться с нами
                                     </h2>
+
                                 </div>
                                 <div className="comment-form-wrap">
                                     <form action="#" id="contact-form" method="POST">
                                         <div className="row g-4">
                                             <div className="col-lg-6">
                                                 <div className="form-clt">
-                                                    <input type="text" name="name" id="name" placeholder="Your Name" />
+                                                    <input type="text" name="name" id="name" placeholder="Имя" />
                                                 </div>
                                             </div>
                                             <div className="col-lg-6">
                                                 <div className="form-clt">
-                                                    <input type="text" name="email" id="email4" placeholder="Your Email" />
+                                                    <input type="text" name="email" id="email4" placeholder="Ваш Email" />
                                                 </div>
                                             </div>
                                             <div className="col-lg-12">
                                                 <div className="form-clt">
-                                                   <input type="text" name="subject" id="name" placeholder="Subject" />
+                                                   <input type="text" name="subject" id="name" placeholder="Тема" />
                                                 </div>
                                             </div>
                                             <div className="col-lg-12">
                                                 <div className="form-clt">
-                                                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                                                    <textarea name="message" id="message" placeholder="Ваше сообщение"></textarea>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6">
                                                 <button type="submit" className="theme-btn">
-                                                    Submit Massage
+                                                    Отправить сообщение
                                                 </button>
                                             </div>
                                         </div>
@@ -113,7 +114,7 @@ const Contact = () => {
                         <div className="col-lg-6">
                             <div className="map-area">
                                 <div className="google-map">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd"loading="lazy"></iframe>
+                                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6d2c4982dbc91ef1a43428c19c1fc44ff7b4f52abfcd1c5ae6c2db7650d9f818&amp;source=constructor"loading="lazy"></iframe>
                                 </div>
                             </div>
                         </div>
