@@ -28,7 +28,7 @@ Version: 1.0.0
   vertical-align: middle;
   display: inline-block;
   border: none;
-  text-transform: capitalize;
+  
   text-align: center;
   background-color: var(--theme);
   color: var(--white);
@@ -83,7 +83,7 @@ Version: 1.0.0
   font-size: 16px;
   font-weight: 700;
   color: var(--theme);
-  text-transform: capitalize;
+  
 }
 .link-btn i {
   margin-left: 10px;
@@ -146,7 +146,7 @@ h6 {
   color: var(--header);
   text-transform: initial;
   transition: all 0.4s ease-in-out;
-  text-transform: capitalize;
+  
 }
 
 h1 {
@@ -1469,7 +1469,7 @@ span {
   border-radius: 100px;
   color: #727171;
   line-height: 1;
-  text-transform: capitalize;
+  
 }
 @media (max-width: 991px) {
   .footer-newsletter-wrapper .newsletter-input .footer-input input {
@@ -1591,7 +1591,7 @@ span {
   font-size: 14px;
   color: var(--white);
   font-weight: 400;
-  text-transform: capitalize;
+  
   margin-bottom: 0;
 }
 .contact-us-wrapper .contact-us-contact .comment-form-wrap .form-clt .nice-select::after {
@@ -3352,7 +3352,7 @@ span {
   padding: 20px 30px;
   line-height: 1;
   border-radius: 10px;
-  text-transform: capitalize;
+  
   color: #455151;
 }
 .destination-details-wrapper .destination-details-items .map-area.ratting-items .form-clt input::placeholder, .destination-details-wrapper .destination-details-items .map-area.ratting-items .form-clt textarea::placeholder {
@@ -3412,7 +3412,7 @@ span {
   background-color: var(--white);
   border-radius: 12px;
   padding: 25px 30px 0;
-  text-transform: capitalize;
+  
   font-size: 22px;
 }
 @media (max-width: 1199px) {
@@ -4535,7 +4535,7 @@ span {
   background-color: var(--white);
   border-radius: 12px;
   padding: 25px 30px 0;
-  text-transform: capitalize;
+  
   font-size: 18px;
 }
 @media (max-width: 1199px) {
@@ -4896,7 +4896,7 @@ span {
   padding: 20px 30px;
   line-height: 1;
   border-radius: 10px;
-  text-transform: capitalize;
+  
   color: #455151;
 }
 .activities-details-wrapper .client-ratting-items .form-clt input::placeholder, .activities-details-wrapper .client-ratting-items .form-clt textarea::placeholder {
@@ -4990,7 +4990,7 @@ span {
   border-radius: 100px;
   color: #727171;
   line-height: 1;
-  text-transform: capitalize;
+  
   margin-bottom: 20px;
 }
 @media (max-width: 991px) {
@@ -5499,7 +5499,7 @@ span {
   padding: 20px 0;
   text-align: left;
   position: relative;
-  text-transform: capitalize;
+  
   transition: all 0.4s ease-in-out;
 }
 .header-main .main-menu ul li a i {
@@ -5830,7 +5830,7 @@ span {
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li {
   font-size: 16px;
   font-weight: 600;
-  text-transform: capitalize;
+  
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact ul li a {
   color: var(--text);
@@ -6622,7 +6622,7 @@ span {
   line-height: 1;
   margin-right: 20px;
   background: transparent;
-  text-transform: capitalize;
+  
   font-weight: 500;
   padding: 12px 15px;
   -webkit-transition: all 0.4s ease-in-out;
@@ -7016,7 +7016,7 @@ span {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
-  text-transform: capitalize;
+  
   border-bottom: 1px solid var(--border) !important;
   border: none;
 }
@@ -7414,7 +7414,7 @@ span {
   font-weight: 400;
   background: var(--white);
   margin-right: 5px;
-  text-transform: capitalize;
+  
   margin-bottom: 10px;
   border-radius: 4px;
   border: 1px solid var(--border);
@@ -7435,7 +7435,7 @@ span {
   padding: 20px 30px;
   line-height: 1;
   border-radius: 10px;
-  text-transform: capitalize;
+  
   color: #455151;
 }
 .main-sideber .single-sidebar-widget .desti-booking-form .form-clt input::placeholder, .main-sideber .single-sidebar-widget .desti-booking-form .form-clt textarea::placeholder {
@@ -7606,7 +7606,7 @@ span {
 }
 .news-details-area .blog-post-details .single-blog-post .post-content .hilight-text p {
   font-weight: 600;
-  text-transform: capitalize;
+  
   font-style: italic;
   line-height: 26px;
   color: var(--header);
@@ -7631,7 +7631,7 @@ span {
   line-height: 1;
   background: transparent;
   margin-right: 8px;
-  text-transform: capitalize;
+  
   font-weight: 500;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -7898,7 +7898,7 @@ span {
   height: 70px;
   border: 0;
   padding: 0 50px;
-  text-transform: capitalize;
+  
   background: transparent;
   font-size: 25px;
   color: var(--theme);
@@ -8029,7 +8029,7 @@ input.main-search-input::placeholder {
   color: var(--theme);
   font-family: "Kalam", sans-serif;
   margin-bottom: 10px;
-  text-transform: capitalize;
+  
 }
 @media (max-width: 767px) {
   .section-title {
@@ -8597,7 +8597,7 @@ input.main-search-input::placeholder {
 }
 .testimonial-wrapper .testimonial-card-items .client-info-items .client-info .text h4 {
   font-size: 20px;
-  text-transform: capitalize;
+  
   margin-bottom: 5px;
 }
 @media (max-width: 1399px) {
@@ -8606,7 +8606,7 @@ input.main-search-input::placeholder {
   }
 }
 .testimonial-wrapper .testimonial-card-items .client-info-items .client-info .text p {
-  text-transform: capitalize;
+  
 }
 .testimonial-wrapper .testimonial-card-items.style-2 {
   border: none;
@@ -9808,7 +9808,7 @@ input.main-search-input::placeholder {
   .cs_nav .cs_nav_list ul {
     padding-left: 15px;
     display: none;
-    text-transform: capitalize;
+    
   }
 
   .cs_nav .cs_nav_list a {
@@ -9917,7 +9917,7 @@ input.main-search-input::placeholder {
   }
 
   .cs-gescout_sticky {
-    background-color: #000; /* Для мобильных — чёрный, как в оригинале, но override на белый для sticky_style1 */
+    background-color: #ffffff; /* Для мобильных — чёрный, как в оригинале, но override на белый для sticky_style1 */
   }
 
   .header_sticky_style2 .cs-munu_toggle span,

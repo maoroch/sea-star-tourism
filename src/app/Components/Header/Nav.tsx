@@ -4,29 +4,11 @@ import DropDown from './DropDown';
 export default function Nav({ setMobileToggle }) {
   return (
     <ul className="cs_nav_list fw-medium">
-      <li className="menu-item-has-children">
-        <Link href="/">Главная</Link>
-        <DropDown>
-          <ul>
-            <li>
-              <Link href="/" onClick={() => setMobileToggle(false)}>
-              Home Version 1
-              </Link>
-            </li>
-            <li>
-              <Link href="/home2" onClick={() => setMobileToggle(false)}>
-              Home Version 2
-              </Link>
-            </li>
-            <li>
-              <Link href="/home3" onClick={() => setMobileToggle(false)}>
-                Home Version 3
-              </Link>
-            </li>            
-          </ul>
-        </DropDown>
+      <li>
+        <Link href="/" onClick={() => setMobileToggle(false)}>
+        Главная
+        </Link>
       </li>
-
       <li>
         <Link href="/about" onClick={() => setMobileToggle(false)}>
         О нас

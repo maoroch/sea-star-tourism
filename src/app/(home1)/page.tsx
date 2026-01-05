@@ -10,10 +10,12 @@ import Cta3 from '../Components/Cta/Cta3';
 import Testimonial2 from '../Components/Testimonial/Testimonial2';
 import Blog2 from '../Components/Blog/Blog2';
 import Instagram1 from '../Components/Instagram/Instagram1';
-
+import Home3 from '../home3/page';
 const page = () => {
     return (
         <div>
+            <Home3 />
+{/* 
             <HeroBanner2></HeroBanner2>
             <About2></About2>
             <Counter1></Counter1>
@@ -25,6 +27,7 @@ const page = () => {
             <Testimonial2></Testimonial2>
             <Blog2></Blog2>
             <Instagram1></Instagram1>
+*/}
         </div>
     );
 };
