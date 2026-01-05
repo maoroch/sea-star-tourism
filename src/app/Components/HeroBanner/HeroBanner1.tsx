@@ -61,7 +61,7 @@ const HeroBanner1 = () => {
                         <div className="hero-bg bg-cover" data-background={item.img}></div>
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-10">
+                                <div className="col-lg-9">
                                     <div className="hero-content">
                                         <div className="sub-title">
                                         {item.subtitle}
@@ -86,7 +86,9 @@ const HeroBanner1 = () => {
                                                     </div>
                                                 </div>
                                             </div>
+{/*
                                             <div className="booking-list">
+
                                                 <div className="icon">
                                                     <Image src="/assets/img/hero/icon-2.png" alt="img" width={24} height={24}   />
                                                 </div>
@@ -102,6 +104,8 @@ const HeroBanner1 = () => {
                                                     </div>
                                                 </div>
                                             </div>
+                                                 */}
+
                                             <div className="booking-list">
                                                 <div className="icon">
                                                     <Image src="/assets/img/hero/icon-3.png" alt="img" width={24} height={24}   />
