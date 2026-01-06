@@ -9592,7 +9592,6 @@ input.main-search-input::placeholder {
   }
 
   .cs_nav .cs_nav_list ul {
-    width: 230px;
     background-color: #fff;
     position: absolute;
     border-top: 2px solid #1ca8cb;
@@ -9638,10 +9637,7 @@ input.main-search-input::placeholder {
     padding: 10px 20px;
   }
 
-  .cs_nav .cs_nav_list ul ul {
-    top: 15px;
-    left: 100%;
-  }
+
 
   .cs-munu_toggle,
   .cs-munu_dropdown_toggle {
@@ -9719,10 +9715,6 @@ input.main-search-input::placeholder {
   .cs_toolbox > *:not(:first-child) {
     margin-left: 25px;
   }
-
-  .cs_nav .cs_nav_list > li {
-    margin-right: 35px;
-  }
 }
 
 @media (max-width: 1500px) {
@@ -9794,9 +9786,9 @@ input.main-search-input::placeholder {
   .cs_nav .cs_nav_list {
     position: absolute;
     width: 100vw;
-    left: -15px;
-    background-color: #181818;
-    padding: 10px 0;
+    left: 0;
+    background-color: #1ca8cb;
+    padding: 0px 0;
     display: none;
     top: 100%;
     border-top: 1px solid #4d4d4d52;
@@ -9918,7 +9910,7 @@ input.main-search-input::placeholder {
   }
 
   .cs-gescout_sticky {
-    background-color: #ffffff; /* Для мобильных — чёрный, как в оригинале, но override на белый для sticky_style1 */
+    background-color: #1ca8cb; /* Для мобильных — чёрный, как в оригинале, но override на белый для sticky_style1 */
   }
 
   .header_sticky_style2 .cs-munu_toggle span,
@@ -9975,6 +9967,8 @@ input.main-search-input::placeholder {
     display: none;
   }
 }
+
+
 
 @media (max-width: 767px) {
   .cs_site_header.cs_style_1 .cs_top_header_in {
@@ -10085,3 +10079,12 @@ input.main-search-input::placeholder {
  .footer-content {
     padding: 0px 20px;
   }
+@media (max-width: 767px) {
+  .cs_nav_list {
+    margin-right: 0px !important;
+    margin-left: -25px !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 200% !important;
+  }
+}

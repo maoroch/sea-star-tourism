@@ -25,13 +25,13 @@ const kalam = Kalam({
 export const metadata = {
   title: {
     absolute: '',
-    default: 'Turmet - Travel & Tour Agency NextJS Template',
-    template: '%s | Turmet - Travel & Tour Agency NextJS Template',
+    default: 'Sea Star Tourism — тур агенство',
+    template: '%s | Sea Star Tourism - тур агенство',
   },
-  description: 'Turmet - Travel & Tour Agency NextJS Template',
+  description: 'Sea Star Tourism - тур агенство ',
   openGraph: {
-    title: 'Turmet - Travel & Tour Agency NextJS Template',
-    description: 'Turmet - Travel & Tour Agency NextJS Template',
+    title: 'Sea Star Tourism - тур агенство',
+    description: 'Sea Star Tourism - тур агенство',
   },
 };
 
