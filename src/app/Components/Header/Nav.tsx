@@ -15,6 +15,12 @@ export default function Nav({ setMobileToggle }) {
         </Link>
       </li>
 
+            <li>
+        <Link href="/tour" onClick={() => setMobileToggle(false)}>
+       Туры
+        </Link>
+      </li>
+
 {/*
       <li className="menu-item-has-children">
         <Link href="/destination" onClick={() => setMobileToggle(false)}>
@@ -35,9 +41,8 @@ export default function Nav({ setMobileToggle }) {
           </ul>
         </DropDown>
       </li>
-*/}
 
-      <li className="menu-item-has-children">
+            <li className="menu-item-has-children">
         <Link href="/tour" onClick={() => setMobileToggle(false)}>
         Туры
         </Link>
@@ -56,6 +61,9 @@ export default function Nav({ setMobileToggle }) {
           </ul>
         </DropDown>
       </li> 
+*/}
+
+
       
 { 
   /* 

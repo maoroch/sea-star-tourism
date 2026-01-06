@@ -3500,7 +3500,7 @@ span {
 .feature-wrapper .feature-content .feature-area .feature-items {
   display: flex;
   align-items: center;
-  gap: 100px;
+  gap: 50px;
   margin-top: 30px;
 }
 @media (max-width: 1399px) {
@@ -5102,7 +5102,7 @@ span {
 .footer-bottom .footer-wrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 @media (max-width: 1199px) {
   .footer-bottom .footer-wrapper {
@@ -10074,3 +10074,14 @@ input.main-search-input::placeholder {
   letter-spacing: -0.48px;
   border-radius: 10px 10px 0 0;
 }
+
+
+
+/*
+ * Кастомные, собственные стили
+ */
+
+
+ .footer-content {
+    padding: 0px 20px;
+  }

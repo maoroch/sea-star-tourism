@@ -52,9 +52,12 @@ const Testimonial3 = () => {
       }; 
 
     const testimonialContent = [
-        {img:'/assets/img/testimonial/client-4.png', subtitle:'Web Designer', title:'Kristin Watson', content:'There are many variations of passages of the Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable.'},        
-        {img:'/assets/img/testimonial/client-4.png', subtitle:'President of Sales', title:'Wade Warren', content:'There are many variations of passages of the Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable.'},        
-        {img:'/assets/img/testimonial/client-4.png', subtitle:'Brooklyn Simmons', title:'Brooklyn Simmons', content:'There are many variations of passages of the Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable.'},        
+        {img:'/assets/img/testimonial/client-1.png', subtitle:'2ГИС', title:'Эльнура Р.', content:'Все понравилось! Спасибо, что забронировали без всяких условий, выручили, приятная обстановка, удобная локация👍'},        
+        {img:'/assets/img/testimonial/client-2.png', subtitle:'2ГИС', title:'Айжан Ауесбаева', content:'Большое спасибо за прекрасный отдых! Тур был организован оперативно, очень быстро подготовили документы, отель нашли возле моря, менеджер (руководитель) Лаура всегда была с нами на связи. Мы остались очень довольны.'},        
+        {img:'/assets/img/testimonial/client-3.png', subtitle:'2ГИС', title:'​Иван Охрименко', content:'Замечательная тур фирма. Ответственные сотрудники. Особая благодарность Айман за организацию нашего отдыха.'},        
+        {img:'/assets/img/testimonial/client-3.png', subtitle:'2ГИС', title:'Альмира Тулеубекова', content:'Спасибо большое Sea Star Tourism Ltd, устроили моей семье незабываемый отдых, благодарю за оперативность и понимание менеджера Винеру, угодила всем, такой вредине как я 😅 🙌'},        
+        {img:'/assets/img/testimonial/client-3.png', subtitle:'2ГИС', title:'Kamilya Kenzhegaliyeva', content:'Летаю через данное агентство с 2022 года, менеджер Бота самая лучшая. Всегда предлагает интересные варианты помогает со всеми документами и визами. Отличные цены по сравнению с другими агентствами и высокий сервис. Летала с ними в разные страны, успела посетить Италию, Швейцарию, Лихтенштейн и Бали'},        
+        {img:'/assets/img/testimonial/client-3.png', subtitle:'2ГИС', title:'​Aruzhan Abdugapparova', content:'Хочется сказать огромное спасибо турагентству Seastar и особенно нашему любимому турагенту Айман! Мы уже не впервые обращаемся к ней за организацией отдыха, и каждый раз остаёмся в полном восторге. Айман всегда очень внимательно относится к нашим пожеланиям, предлагает только проверенные и действительно стоящие варианты. С ней всегда надёжно и спокойно — она подскажет, посоветует и всё организует на высшем уровне.'},        
       ]; 
 
     return (
@@ -71,10 +74,10 @@ const Testimonial3 = () => {
                         <div className="testimonial-content">
                             <div className="section-title">
                                 <span className="sub-title wow fadeInUp">
-                                    Testimonial
+                                    Отзывы
                                 </span>
                                 <h2 className="wow fadeInUp wow" data-wow-delay=".2s">
-                                    Travelers Love Our locals
+                                    Что говорят наши клиенты
                                 </h2>
                             </div>
                             <div className="swiper testimonial-slider3">

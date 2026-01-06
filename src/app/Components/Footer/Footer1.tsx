@@ -27,21 +27,14 @@ const Footer1 = () => {
                             <div className="single-widget-items text-center px-lg-2 ">
                                 <div className="widget-head">
                                     <a href="#">
-                                        <img src="/assets/img/logo/white-log.svg" height={100} alt="img" />
+                                        <img src="/assets/img/logo/icon-star.svg" height={100} alt="img" />
                                     </a>
                                 </div>
                                 <div className="footer-content">
-                                    <h3>Подпишитесь на новостную рассылку</h3>
+                                    <h3>Следите за нами в наших аккаунтах в соц сетях</h3>
                                     <p>
-                                        Получайте обновления о наших последних турах, специальных предложениях и эксклюзивных скидках прямо на ваш почтовый ящик.
+                                        Узнавайте об обновлениях о наших последних турах, специальных предложениях и эксклюзивных скидках.
                                     </p>
-                                    <div className="footer-input">
-                                        <input type="email" id="email2" placeholder="email" />
-                                        <button className="newsletter-btn theme-btn" type="submit">
-                                            Подписаться
-                                             <i className="bi bi-arrow-right"></i>
-                                        </button>
-                                    </div>
                                     <div className="social-icon d-flex align-items-center justify-content-center">
                                         <a href="#"><i className="bi bi-facebook"></i></a>
                                         <a href="#"><i className="bi bi-twitter-x"></i></a>
@@ -54,7 +47,9 @@ const Footer1 = () => {
                         <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6 ps-lg-5 wow fadeInUp wow" data-wow-delay=".4s">
                             <div className="single-widget-items">
                                 <div className="widget-head">
-                                   <h4>Страницы</h4>
+                                   <h4>
+                                    Быстрые ссылки
+                                   </h4>
                                 </div>
                                 <ul className="list-items">
                                     <li>
@@ -166,13 +161,6 @@ const Footer1 = () => {
                         <p className="wow fadeInUp" data-wow-delay=".3s">
                             Copyright © <span>Sea Star Tourism,</span> Все права защищены.
                         </p>
-                        <ul className="bottom-list wow fadeInUp" data-wow-delay=".5s">
-                            <li>Условия использования
-                            </li>
-                            <li>
-                                Политика конфиденциальности
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
