@@ -26,13 +26,13 @@ const Destination1 = () => {
                 <div className="section-title-area justify-content-between">
                     <div className="section-title">
                         <span className="sub-title wow fadeInUp">
-                            Best Recommended Places
+                            Лучшие направления
                         </span>
                         <h2 className="wow fadeInUp wow" data-wow-delay=".3s">
-                            Popular Destination we offer for all
+                            Популярные направления, которые мы предлагаем для всех
                         </h2>
                     </div>
-                    <Link href="/tour/tour-details" className="theme-btn wow fadeInUp wow" data-wow-delay=".5s">View All Tour<i className="bi bi-arrow-right"></i></Link>
+                    <Link href="/tour/tour-details" className="theme-btn wow fadeInUp wow" data-wow-delay=".5s">Узнать больше</Link>
                 </div> 
                 <div className="row">
                 {destinationContent.map((item, i) => (
@@ -40,9 +40,11 @@ const Destination1 = () => {
                         <div className="destination-card-items">
                             <div className="destination-image">
                                 <Image src={item.img} alt="img" width={304} height={254}   />
-                                <div className="heart-icon">
+{/**
+ *                                 <div className="heart-icon">
                                 <i className="bi bi-heart"></i>
                                 </div>
+ */}
                             </div>
                             <div className="destination-content">
                                 <ul className="meta">
@@ -74,7 +76,7 @@ const Destination1 = () => {
                                 </ul>
                                 <div className="price">
                                     <h6>{item.price}<span>/Per day</span></h6>
-                                    <Link href="/tour/tour-details" className="theme-btn style-2">Book Now<i className="bi bi-arrow-right"></i></Link>
+                                    <Link href="/tour/tour-details" className="theme-btn style-2">Узнать<i className="bi bi-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </div>
