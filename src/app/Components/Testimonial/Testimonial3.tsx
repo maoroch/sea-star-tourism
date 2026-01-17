@@ -119,9 +119,7 @@ const Testimonial3 = () => {
                                                         <h4>
                                                         {item.title}
                                                         </h4>
-                                                        <p>
-                                                        {item.subtitle}
-                                                        </p>
+
                                                     </div>
                                                 </div>
                                                 <div className="icon">
