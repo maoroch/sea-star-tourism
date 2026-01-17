@@ -18,7 +18,7 @@ const BreadCumb = ({Title,bgimg}) => {
                   <h2>{Title}</h2>
                   <ul className="breadcrumb-list">
                       <li>
-                      <Link href="/">Главная</Link>
+                      <Link href="/">Home</Link>
                       </li>
                       <li><i className="bi bi-chevron-double-right"></i></li>
                       <li>{Title}</li>

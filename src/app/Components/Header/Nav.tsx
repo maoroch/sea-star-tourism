@@ -6,18 +6,18 @@ export default function Nav({ setMobileToggle }) {
     <ul className="cs_nav_list fw-medium">
       <li>
         <Link href="/" onClick={() => setMobileToggle(false)}>
-        Главная
+        Home
         </Link>
       </li>
       <li>
         <Link href="/about" onClick={() => setMobileToggle(false)}>
-        О нас
+        About Us
         </Link>
       </li>
 
             <li>
         <Link href="/tour" onClick={() => setMobileToggle(false)}>
-       Туры
+       Tours
         </Link>
       </li>
 

@@ -7,7 +7,9 @@
     "rating": 4.6,
     "day": "7 Days",
     "number": "2 Person",
-    "price": "$850"
+    "price": "$850",
+    "description": "Enjoy a perfect week-long beach holiday in Antalya, Turkey's stunning Mediterranean coastline. This all-inclusive package features luxurious beachfront accommodation, daily breakfast buffets, and access to private beach clubs. Explore ancient ruins, take boat trips to secluded coves, and experience traditional Turkish cuisine. Perfect for couples seeking relaxation and adventure.",
+    "highlights": ["Private beach access", "All-inclusive meals", "Guided historical tours", "Boat excursions", "Spa discounts"]
   },
   {
     "id": "tour-002",
@@ -17,7 +19,9 @@
     "rating": 4.9,
     "day": "10 Days",
     "number": "2 Person",
-    "price": "$1450"
+    "price": "$1450",
+    "description": "Experience ultimate luxury with our premium 5-star all-inclusive package in Antalya. Stay at an award-winning resort with infinity pools, world-class spa facilities, and gourmet dining options. Includes private transfers, exclusive excursions to Pamukkale thermal pools, and personalized concierge service throughout your stay.",
+    "highlights": ["5-star luxury resort", "Gourmet dining", "Private excursions", "Spa treatments", "Butler service"]
   },
   {
     "id": "tour-003",
@@ -27,7 +31,9 @@
     "rating": 4.3,
     "day": "4 Days",
     "number": "1 Person",
-    "price": "$480"
+    "price": "$480",
+    "description": "Perfect for solo travelers, this budget-friendly Istanbul city break covers all major attractions. Visit Hagia Sophia, Blue Mosque, Topkapi Palace, and Grand Bazaar. Includes centrally located accommodation, public transport pass, and guided walking tours. Experience the magical blend of European and Asian cultures.",
+    "highlights": ["Central accommodation", "Public transport pass", "Guided walking tours", "Bosphorus cruise", "Local cuisine tasting"]
   },
   {
     "id": "tour-004",
@@ -37,7 +43,9 @@
     "rating": 4.8,
     "day": "7 Days",
     "number": "2 Person",
-    "price": "$1200"
+    "price": "$1200",
+    "description": "Discover the best of Dubai with this balanced beach and city experience. Enjoy Jumeirah Beach days, visit Burj Khalifa, explore traditional souks, and experience desert safaris. Package includes beachfront hotel, daily breakfast, and tickets to major attractions including Dubai Mall aquarium.",
+    "highlights": ["Beachfront hotel", "Burj Khalifa tickets", "Desert safari", "Traditional souk visit", "Dhow cruise dinner"]
   },
   {
     "id": "tour-005",
@@ -47,7 +55,9 @@
     "rating": 5.0,
     "day": "9 Days",
     "number": "2 Person",
-    "price": "$2100"
+    "price": "$2100",
+    "description": "Indulge in the ultimate Dubai luxury experience. Stay at iconic 5-star hotels like Burj Al Arab or Atlantis The Palm. Includes private helicopter tour over Palm Jumeirah, exclusive shopping experiences, Michelin-star dining, and personalized luxury car transfers. Perfect for special occasions and luxury seekers.",
+    "highlights": ["Iconic 5-star hotel", "Helicopter tour", "Michelin dining", "Private shopping assistant", "Limo transfers"]
   },
   {
     "id": "tour-006",
@@ -57,7 +67,9 @@
     "rating": 4.7,
     "day": "8 Days",
     "number": "2 Person",
-    "price": "$1100"
+    "price": "$1100",
+    "description": "Escape to Thailand's tropical paradise with this 8-day Phuket package. Relax on pristine beaches, explore Phi Phi Islands, experience vibrant nightlife at Patong Beach, and indulge in authentic Thai massages. Includes beachfront resort, island hopping tours, and cooking class.",
+    "highlights": ["Phi Phi Islands tour", "Thai cooking class", "Beachfront resort", "Elephant sanctuary visit", "Night market exploration"]
   },
   {
     "id": "tour-007",
@@ -67,7 +79,9 @@
     "rating": 4.8,
     "day": "12 Days",
     "number": "2 Person",
-    "price": "$1650"
+    "price": "$1650",
+    "description": "Experience the perfect blend of city excitement and beach relaxation with our Bangkok & Phuket combo tour. Explore Bangkok's temples and floating markets, then unwind on Phuket's beautiful beaches. Includes domestic flights, guided tours in Bangkok, and beach resort accommodation in Phuket.",
+    "highlights": ["Bangkok temple tour", "Floating market visit", "Domestic flights included", "Beach resort stay", "Cultural shows"]
   },
   {
     "id": "tour-008",
@@ -77,17 +91,21 @@
     "rating": 4.5,
     "day": "6 Days",
     "number": "2 Person",
-    "price": "$620"
+    "price": "$620",
+    "description": "Discover Georgia's stunning capital and majestic mountains. Explore Tbilisi's old town, visit ancient churches, taste famous Georgian wine, and journey to the Caucasus mountains. Includes traditional Georgian meals, wine tasting tours, and comfortable mountain lodge accommodation.",
+    "highlights": ["Old Tbilisi exploration", "Wine tasting tour", "Caucasus mountains visit", "Traditional Georgian meals", "Ancient church tours"]
   },
   {
     "id": "tour-009",
     "title": "Georgia Gastronomy Tour",
     "img": "/images/georgia-food.jpg",
     "location": "Kutaisi, Georgia",
+    "description": "A culinary journey through Georgia's wine region. Visit local vineyards, participate in cooking classes, explore food markets, and taste traditional dishes like khinkali and khachapuri. Perfect for food and wine enthusiasts looking to experience authentic Georgian culture.",
     "rating": 4.6,
     "day": "5 Days",
     "number": "2 Person",
-    "price": "$540"
+    "price": "$540",
+    "highlights": ["Vineyard visits", "Cooking classes", "Food market tours", "Wine tasting sessions", "Traditional feast"]
   },
   {
     "id": "tour-010",
@@ -97,7 +115,9 @@
     "rating": 4.7,
     "day": "5 Days",
     "number": "1 Person",
-    "price": "$980"
+    "price": "$980",
+    "description": "Perfect for solo travelers, this Rome tour covers all major historical sites. Skip-the-line access to Colosseum and Vatican Museums, guided tours of ancient Roman ruins, and authentic Italian dining experiences. Includes centrally located accommodation and comprehensive city transport pass.",
+    "highlights": ["Skip-the-line Vatican", "Colosseum tour", "Roman Forum visit", "Italian cooking class", "City transport pass"]
   },
   {
     "id": "tour-011",
@@ -107,7 +127,9 @@
     "rating": 4.8,
     "day": "8 Days",
     "number": "2 Person",
-    "price": "$1350"
+    "price": "$1350",
+    "description": "Experience Italy's art and history capitals. Explore Rome's ancient wonders and Florence's Renaissance masterpieces. Includes high-speed train between cities, guided Uffizi Gallery tour, Vatican visit, and Tuscan countryside day trip with wine tasting.",
+    "highlights": ["Uffizi Gallery tour", "High-speed train", "Tuscan countryside", "Wine tasting", "Historical guided tours"]
   },
   {
     "id": "tour-012",
@@ -117,9 +139,11 @@
     "rating": 4.9,
     "day": "4 Days",
     "number": "2 Person",
-    "price": "$920"
+    "price": "$920",
+    "description": "Romantic Paris getaway perfect for couples. Includes Eiffel Tower visit, Seine River cruise, Montmartre walking tour, Louvre Museum tickets, and romantic dinner with Seine views. Stay in charming boutique hotel in the Latin Quarter.",
+    "highlights": ["Eiffel Tower visit", "Seine River cruise", "Louvre tickets", "Romantic dinner", "Montmartre tour"]
   },
-    {
+  {
     "id": "tour-013",
     "title": "Barcelona City Break",
     "img": "/images/barcelona.jpg",
@@ -127,7 +151,9 @@
     "rating": 4.6,
     "day": "5 Days",
     "number": "2 Person",
-    "price": "$890"
+    "price": "$890",
+    "description": "Discover Gaudí's masterpiece city. Visit Sagrada Familia, Park Güell, Gothic Quarter, and enjoy tapas tours. Includes skip-the-line tickets to major attractions, flamenco show, and beach time at Barceloneta. Perfect for culture and architecture enthusiasts.",
+    "highlights": ["Sagrada Familia", "Park Güell", "Tapas tour", "Flamenco show", "Gothic Quarter"]
   },
   {
     "id": "tour-014",
@@ -137,7 +163,9 @@
     "rating": 5.0,
     "day": "7 Days",
     "number": "2 Person",
-    "price": "$2600"
+    "price": "$2600",
+    "description": "Ultimate luxury overwater bungalow experience in the Maldives. Private villa with direct lagoon access, gourmet dining, spa treatments, snorkeling with manta rays, and romantic sunset cruises. All-inclusive package with seaplane transfers.",
+    "highlights": ["Overwater bungalow", "Snorkeling with rays", "Spa treatments", "Sunset cruise", "Seaplane transfers"]
   },
   {
     "id": "tour-015",
@@ -147,7 +175,9 @@
     "rating": 4.7,
     "day": "10 Days",
     "number": "2 Person",
-    "price": "$1250"
+    "price": "$1250",
+    "description": "Diverse Sri Lanka tour combining beaches, tea country, and cultural sites. Visit ancient temples, tea plantations, wildlife safaris, and beach relaxation. Includes train ride through tea country, elephant orphanage visit, and Ayurvedic spa experience.",
+    "highlights": ["Tea plantation tour", "Wildlife safari", "Cultural temple visits", "Beach relaxation", "Ayurvedic spa"]
   },
   {
     "id": "tour-016",
@@ -157,7 +187,9 @@
     "rating": 4.9,
     "day": "9 Days",
     "number": "2 Person",
-    "price": "$1400"
+    "price": "$1400",
+    "description": "Perfect balance of adventure and relaxation in Bali. Surf lessons in Kuta, yoga retreat in Ubud, temple visits, and beach club experiences. Includes private villa accommodation, traditional Balinese massage, and rice terrace tours.",
+    "highlights": ["Surf lessons", "Yoga retreat", "Temple visits", "Rice terrace tours", "Traditional massage"]
   },
   {
     "id": "tour-017",
@@ -167,7 +199,9 @@
     "rating": 4.4,
     "day": "7 Days",
     "number": "4 Person",
-    "price": "$980"
+    "price": "$980",
+    "description": "Family-friendly Cyprus holiday with activities for all ages. Water parks, beach days, ancient ruins exploration, and boat trips. Family-sized apartment accommodation, kids' clubs, and special family dining options included.",
+    "highlights": ["Water parks", "Kids' clubs", "Ancient ruins", "Family apartment", "Boat trips"]
   },
   {
     "id": "tour-018",
@@ -177,7 +211,9 @@
     "rating": 4.5,
     "day": "3 Days",
     "number": "2 Person",
-    "price": "$520"
+    "price": "$520",
+    "description": "Perfect weekend getaway in magical Prague. Charles Bridge, Prague Castle, Old Town Square, and traditional Czech beer tasting. Includes river cruise, astronomical clock viewing, and medieval dinner show.",
+    "highlights": ["Prague Castle", "Charles Bridge", "Beer tasting", "River cruise", "Medieval dinner"]
   },
   {
     "id": "tour-019",
@@ -187,7 +223,9 @@
     "rating": 4.7,
     "day": "11 Days",
     "number": "2 Person",
-    "price": "$1350"
+    "price": "$1350",
+    "description": "Experience Vietnam's vibrant capital and beautiful beaches. Hanoi's old quarter, Halong Bay cruise, Nha Trang beach relaxation, and authentic Vietnamese cuisine. Includes domestic flights, cooking classes, and beach resort accommodation.",
+    "highlights": ["Halong Bay cruise", "Vietnamese cooking class", "Beach resort", "Old quarter exploration", "Domestic flights"]
   },
   {
     "id": "tour-020",
@@ -197,6 +235,8 @@
     "rating": 4.9,
     "day": "10 Days",
     "number": "2 Person",
-    "price": "$1800"
+    "price": "$1800",
+    "description": "Classic Japan tour combining modern Tokyo and traditional Kyoto. Bullet train experience, Tokyo skyscrapers, Kyoto temples, authentic tea ceremony, and sushi making class. Includes Japan Rail Pass and traditional ryokan stay.",
+    "highlights": ["Bullet train experience", "Tea ceremony", "Sushi making class", "Kyoto temples", "Traditional ryokan"]
   }
 ]

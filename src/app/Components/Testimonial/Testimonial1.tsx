@@ -47,13 +47,37 @@ const Testimonial1 = () => {
       }; 
 
     const testimonialContent = [
-              {img:'/assets/img/testimonial/client-3.png', subtitle:'2ГИС', title:'​Aruzhan Abdugapparova', content:'Хочется сказать огромное спасибо турагентству Seastar и особенно нашему любимому турагенту Айман! Мы уже не впервые обращаемся к ней за организацией отдыха, и каждый раз остаёмся в полном восторге. Айман всегда очень внимательно относится к нашим пожеланиям, предлагает только проверенные и действительно стоящие варианты. С ней всегда надёжно и спокойно — она подскажет, посоветует и всё организует на высшем уровне.'},        
-        {img:'/assets/img/testimonial/client-1.png', subtitle:'2ГИС', title:'Эльнура Р.', content:'Все понравилось! Спасибо, что забронировали без всяких условий, выручили, приятная обстановка, удобная локация👍'},        
-        {img:'/assets/img/testimonial/client-2.png', subtitle:'2ГИС', title:'Айжан Ауесбаева', content:'Большое спасибо за прекрасный отдых! Тур был организован оперативно, очень быстро подготовили документы, отель нашли возле моря, менеджер (руководитель) Лаура всегда была с нами на связи. Мы остались очень довольны.'},        
-        {img:'/assets/img/testimonial/client-3.png', subtitle:'2ГИС', title:'​Иван Охрименко', content:'Замечательная тур фирма. Ответственные сотрудники. Особая благодарность Айман за организацию нашего отдыха.'},        
-        {img:'/assets/img/testimonial/client-3.png', subtitle:'2ГИС', title:'Альмира Тулеубекова', content:'Спасибо большое Sea Star Tourism Ltd, устроили моей семье незабываемый отдых, благодарю за оперативность и понимание менеджера Винеру, угодила всем, такой вредине как я 😅 🙌'},        
-        {img:'/assets/img/testimonial/client-3.png', subtitle:'2ГИС', title:'Kamilya Kenzhegaliyeva', content:'Летаю через данное агентство с 2022 года, менеджер Бота самая лучшая. Всегда предлагает интересные варианты помогает со всеми документами и визами. Отличные цены по сравнению с другими агентствами и высокий сервис. Летала с ними в разные страны, успела посетить Италию, Швейцарию, Лихтенштейн и Бали'},        
-      ]; 
+  {
+    img: '/assets/img/testimonial/client-3.png',
+    title: 'Sophia Martinez',
+    content: 'Huge thanks to Seastar Travel Agency and especially Ayman! Every trip with her is smooth and memorable. She listens carefully and always suggests the best options. Truly reliable and professional.'
+  },
+  {
+    img: '/assets/img/testimonial/client-1.png',
+    title: 'Liam Johnson',
+    content: 'Everything was perfect! Quick booking, helpful staff, and a great location. Highly recommend!'
+  },
+  {
+    img: '/assets/img/testimonial/client-2.png',
+    title: 'Olivia Kim',
+    content: 'Amazing holiday! Documents were prepared fast, hotel was right by the sea, and our manager Laura was always available. Very satisfied.'
+  },
+  {
+    img: '/assets/img/testimonial/client-3.png',
+    title: 'Ethan Brown',
+    content: 'Fantastic travel agency with responsible staff. Special thanks to Ayman for organizing everything perfectly.'
+  },
+  {
+    img: '/assets/img/testimonial/client-3.png',
+    title: 'Isabella Thompson',
+    content: 'Thank you, Blue Star Tours! Our family had an unforgettable trip. The manager Viner was efficient and attentive, making sure everyone was happy.'
+  },
+  {
+    img: '/assets/img/testimonial/client-3.png',
+    title: 'Noah Williams',
+    content: 'Booking with this agency since 2022 has been amazing. Manager Bota is great, helping with documents, visas, and offering excellent deals. Visited Italy, Switzerland, Liechtenstein, and Bali with them.'
+  },
+];
 
     return (
         <section className="testimonial-section section-padding fix bg-cover">
@@ -65,10 +89,10 @@ const Testimonial1 = () => {
             <div className="container">
                 <div className="section-title text-center">
                     <span className="sub-title wow fadeInUp">
-                        Отзывы
+                        Testimonials
                     </span>
                     <h2 className="wow fadeInUp wow" data-wow-delay=".2s">
-                        Что говорят наши клиенты
+                        What Our Clients Say
                     </h2>
                 </div>
                 <div className="testimonial-wrapper">
@@ -95,7 +119,6 @@ const Testimonial1 = () => {
                                             </div>*/}
                                             <div className="text">
                                                 <h4>{item.title}</h4>
-                                                <p>{item.subtitle}</p>
                                             </div>
                                         </div>
                                         <div className="icon">
@@ -112,8 +135,15 @@ const Testimonial1 = () => {
 
                         </div>
                         <div className="array-button">
-                            <button onClick={previous} className="array-prevs">Назад</button>
-                            <button onClick={next} className="array-nexts">Вперёд</button>
+                            <button onClick={previous} className="array-prevs">
+                              <i className="bi bi-chevron-left"></i>
+                              <span>Previous</span>
+                            </button>
+                            <button onClick={next} className="array-nexts">
+                                                            <span>Next</span>
+
+                              <i className="bi bi-chevron-right"></i>
+                            </button>
                         </div>
                     </div>
                 </div>

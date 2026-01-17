@@ -26,17 +26,15 @@ const About2 = () => {
                             <div className="about-content">
                                 <div className="section-title">
                                     <span className="sub-title wow fadeInUp">
-                                        О нас
+                                        About Us
                                     </span>
                                     <h2 className="wow fadeInUp wow" data-wow-delay=".3s">
-                                        Путешествуй с нами с максимальным комфортом!
-                                    </h2>
+Travel with Confidence and Explore the World Like Never Before                                    </h2>
                                 </div>
-                                <p className="wow fadeInUp wow" data-wow-delay=".5s">
-                                        Туристическое агентство
-                                    <br />    🐬 15 лет открываем для вас новые страны
-                                    <br />    🌴 Более 15 000 довольных туристов
-                                    <br />    🌎 Подобрать идеальный тур ⤵️
+                                <p className="wow fadeInUp wow gap-2 d-grid" data-wow-delay=".5s">
+                                    <span>✈️ For over 15 years, we have been helping travelers explore new destinations and create unforgettable memories.</span>
+                                    <span>🏖️ More than 25,000 satisfied travelers have trusted us.</span>
+                                    <span>🌟 From exotic beaches to cultural adventures, we help you find the perfect tour.</span>
                                 </p>
 {/*
                                 <div className="about-items wow fadeInUp wow" data-wow-delay=".3s">
@@ -74,7 +72,8 @@ const About2 = () => {
                                     </div>
                                 </div>
                                 */}
-                                <Link href="/about" className="theme-btn mt-4 wow fadeInUp wow" data-wow-delay=".7s">Discover More<i className="bi bi-arrow-right"></i></Link>
+                                <Link href="/about" className="theme-btn mt-4 wow fadeInUp wow" data-wow-delay=".7s">Start Your Adventure
+<i className="bi bi-arrow-right"></i></Link>
                             </div>
                         </div>
                     </div>

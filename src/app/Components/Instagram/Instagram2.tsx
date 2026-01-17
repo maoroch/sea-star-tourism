@@ -48,7 +48,7 @@ const Instagram2 = () => {
     return (
 <div className="instagram-banner fix section-padding">
             <div className="instagram-wrapper">
-                <h2 className="text-center wow fadeInUp" data-wow-delay=".3s">Подписывайтесь на наш Instagram</h2>
+                <h2 className="text-center wow fadeInUp" data-wow-delay=".3s">Follow Us on Instagram</h2>
                 <div className="swiper instagram-banner-slider">
                     <div className="swiper-wrapper cs_slider_gap_301">
                     <Slider {...settings}>

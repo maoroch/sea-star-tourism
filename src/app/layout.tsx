@@ -24,18 +24,19 @@ const kalam = Kalam({
 
 export const metadata = {
   title: {
-    absolute: "Sea Star Tourism — туристическое агентство в Алматы",
-    default: "Sea Star Tourism — туры и путешествия из Алматы",
-    template: "%s | Sea Star Tourism",
+    absolute: "Blue Star Tours — Travel Agency in Almaty",
+    default: "Blue Star Tours — Tours and Trips from Almaty",
+    template: "%s | Blue Star Tours",
   },
   description:
-    "Sea Star Tourism — туристическое агентство в Алматы. Подбор туров, пляжный отдых, экскурсионные и индивидуальные путешествия, бронирование отелей и авиабилетов по всему миру.",
+    "Blue Star Tours — a travel agency in Almaty. We offer tour selection, beach vacations, sightseeing and custom trips, hotel and flight bookings worldwide.",
   openGraph: {
-    title: "Sea Star Tourism — туристическое агентство в Алматы",
+    title: "Blue Star Tours — Travel Agency in Almaty",
     description:
-      "Sea Star Tourism — туристическое агентство в Алматы. Организуем туры и путешествия из Алматы, пляжный отдых, экскурсионные программы и индивидуальные туры.",
+      "Blue Star Tours — a travel agency in Almaty. We organize tours and trips from Almaty, beach holidays, sightseeing programs, and personalized tours.",
   },
 };
+
 
 export default function RootLayout({ children }) {
   return (

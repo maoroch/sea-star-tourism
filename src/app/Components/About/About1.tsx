@@ -42,8 +42,8 @@ const About1 = () => {
                                     </div>
                                     <div className="about-tour">
                                         <div className="content">
-                                            <h4><b>15</b></h4>
-                                            <span>лет опыта
+                                            <h2 className='text-white'><b>15</b></h2>
+                                            <span>years of experience
                                             </span>
                                         </div>
                                     </div>
@@ -54,10 +54,10 @@ const About1 = () => {
                             <div className="about-content">
                                 <div className="section-title">
                                     <span className="sub-title wow fadeInUp">
-                                        О нас
+                                        About Us
                                     </span>
                                     <h2 className="wow fadeInUp wow" data-wow-delay=".2s">
-                                        Почему выбирают нас для путешествий
+                                        Why Choose Us for Your Travels
                                     </h2>
                                 </div>
                                 <div className="about-area mt-4 mt-md-0">
@@ -70,10 +70,10 @@ const About1 = () => {
                                         </div>
                                         <div className="content">
                                             <h5>
-                                                Индивидуальные туры
+                                                Individual Tours
                                             </h5>
                                             <p>
-                                                Мы предлагаем индивидуальные туры, адаптированные под ваши предпочтения и интересы.
+                                                We offer individual tours tailored to your preferences and interests.
                                             </p>
                                         </div>
                                     </div>
@@ -83,10 +83,10 @@ const About1 = () => {
                                         </div>
                                         <div className="content">
                                             <h5>
-                                                Безопасность превыше всего
+                                                Safety First
                                             </h5>
                                             <p>
-                                                Мы предлагаем индивидуальные туры, <br/> адаптированные к вашим интересам
+                                                We offer individual tours tailored to your interests.
                                             </p>
                                         </div>
                                     </div>
@@ -96,10 +96,10 @@ const About1 = () => {
                                         </div>
                                         <div className="content">
                                             <h5>
-                                                Профессиональная поддержка
+                                                Professional Support
                                             </h5>
                                             <p>
-                                                Наша команда профессионалов всегда готова помочь вам на каждом этапе вашего путешествия.
+                                                Our team of professionals is always ready to assist you at every stage of your journey.
                                             </p>
                                         </div>
                                     </div>

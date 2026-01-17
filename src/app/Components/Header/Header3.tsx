@@ -47,15 +47,15 @@ export default function Header3({ variant } : any ) {
             <ul className="cs_header_contact_list cs_mp_0 cs_white_color">
                 <li>
                 <i className="bi bi-envelope-fill"></i>
-                  <a href="mailto:info@seastartourism.com" aria-label="Email link">info@seastartourism.com</a>
+                  <a href="mailto:contact@bluestartours.kz" aria-label="Email link">contact@bluestartours.kz</a>
                 </li>
                 <li>
                 <i className="bi bi-telephone-fill"></i>
-                  <a href="tel:+990123456789" aria-label="Phone call link">+77017498885</a>
+                  <a href="tel:7 701 234 56 78" aria-label="Phone call link">+7 701 234 56 78</a>
                 </li>
                 <li>
                 <i className="bi bi-geo-alt-fill"></i>
-                  Проспект Достык, 162 к4, Алматы
+                  <span>Abay Avenue, 45B, Almaty</span>
                 </li>
               </ul>
             </div>
@@ -111,7 +111,7 @@ export default function Header3({ variant } : any ) {
                 <div className="main-button">
                 <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a>
                 <Link href="/contact" className='theme-btn'>
-                <span>  Связаться с нами
+                <span>  Contact Us
                    <i className="bi bi-arrow-right"></i> </span></Link>
                   </div>
 

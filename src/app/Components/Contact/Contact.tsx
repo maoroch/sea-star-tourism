@@ -16,10 +16,10 @@ const Contact = () => {
                                 </div>
                                 <div className="content">
                                     <h3>
-                                        Наш адрес
+                                        Our Address
                                     </h3>
                                     <p>
-                                        Проспект Достык, 162 к4, Алматы
+                                        Abay Avenue, 45B, Almaty
                                     </p>
                                 </div>
                             </div>
@@ -33,10 +33,10 @@ const Contact = () => {
                                 </div>
                                 <div className="content">
                                     <h3>
-                                        <a href="mailto:info@sea-star-tourism.kz">info@sea-star-tourism.kz</a>
+                                        <a href="mailto:contact@bluestartours.kz">contact@bluestartours.kz</a>
                                     </h3>
                                     <p>
-                                        Почта для написания вопросов
+                                        Email for inquiries
                                     </p>
                                 </div>
                             </div>
@@ -50,10 +50,10 @@ const Contact = () => {
                                 </div>
                                 <div className="content">
                                     <h3>
-                                        <a href="tel:Hot+208-666-0112">+7‒707‒555‒85‒84</a>
+                                        <a href="tel:7 701 234 56 78">+7‒701‒234‒56‒78</a>
                                     </h3>
                                     <p>
-                                        единый номер
+                                        Phone support available
                                     </p>
                                 </div>
                             </div>
@@ -71,10 +71,10 @@ const Contact = () => {
                             <div className="contact-us-contact">
                                 <div className="section-title">
                                     <span className="sub-title text-white wow fadeInUp">
-                                        Получите консультацию
+                                        Get in Touch
                                     </span>
                                     <h2 className=" text-white wow fadeInUp wow" data-wow-delay=".2s">
-                                        Связаться с нами
+                                        Contact Us
                                     </h2>
 
                                 </div>
@@ -83,27 +83,27 @@ const Contact = () => {
                                         <div className="row g-4">
                                             <div className="col-lg-6">
                                                 <div className="form-clt">
-                                                    <input type="text" name="name" id="name" placeholder="Имя" />
+                                                    <input type="text" name="name" id="name" placeholder="Your Name" />
                                                 </div>
                                             </div>
                                             <div className="col-lg-6">
                                                 <div className="form-clt">
-                                                    <input type="text" name="email" id="email4" placeholder="Ваш Email" />
+                                                    <input type="text" name="email" id="email4" placeholder="Your Email" />
                                                 </div>
                                             </div>
                                             <div className="col-lg-12">
                                                 <div className="form-clt">
-                                                   <input type="text" name="subject" id="name" placeholder="Тема" />
+                                                   <input type="text" name="subject" id="name" placeholder="Subject" />
                                                 </div>
                                             </div>
                                             <div className="col-lg-12">
                                                 <div className="form-clt">
-                                                    <textarea name="message" id="message" placeholder="Ваше сообщение"></textarea>
+                                                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6">
                                                 <button type="submit" className="theme-btn">
-                                                    Отправить сообщение
+                                                    Send Message
                                                 </button>
                                             </div>
                                         </div>

@@ -66,7 +66,7 @@ export default function Header1({ variant } : any ) {
                 <div className="main-button header-btn-1">
                 <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a>
                 <Link href="/contact" className='theme-btn'>
-                <span> Связаться с нами <i className="bi bi-arrow-right"></i></span></Link>
+                <span> Contact Us <i className="bi bi-arrow-right"></i></span></Link>
                   </div>
 
               </div>

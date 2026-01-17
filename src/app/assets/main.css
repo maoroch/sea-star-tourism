@@ -8020,7 +8020,7 @@ input.main-search-input::placeholder {
 .section-title {
   position: relative;
   z-index: 99;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   margin-top: -6px;
 }
 .section-title .sub-title {
@@ -10087,6 +10087,9 @@ input.main-search-input::placeholder {
     right: 0 !important;
     width: 200% !important;
   }
+  .section-title {
+  margin-bottom: 10px;
+}
 }
 .range-slider-container input[type="range"] {
   pointer-events: none;
@@ -10104,3 +10107,4 @@ input.main-search-input::placeholder {
 .range-slider-container input[type="range"]::-ms-thumb {
   pointer-events: all;
 }
+

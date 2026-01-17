@@ -1,3 +1,4 @@
+// Tour/Tour.tsx
 'use client';
 
 import Image from 'next/image';
@@ -162,7 +163,7 @@ export default function Tour() {
                 className="btn btn-outline-primary d-flex align-items-center"
               >
                 <i className="bi bi-x-circle me-2"></i>
-                Сбросить фильтры
+                Reset Filters
               </button>
             )}
           </div>
@@ -175,17 +176,21 @@ export default function Tour() {
                   <div className="spinner-border text-primary" role="status">
                     <span className="visually-hidden">Загрузка...</span>
                   </div>
-                  <p className="mt-3">Загружаем туры...</p>
+                  <p className="mt-3">
+                    Loading tours...
+                  </p>
                 </div>
               ) : currentTours.length === 0 ? (
                 <div className="text-center py-5">
-                  <h4 className="mb-3">Туры не найдены</h4>
+                  <h4 className="mb-3">
+                    Tours Not Found
+                  </h4>
                   <p className="text-muted mb-4">
-                    Попробуйте изменить параметры фильтрации
+                    Please try adjusting your filter parameters
                   </p>
                   <button onClick={clearAllFilters} className="btn btn-primary">
                     <i className="bi bi-arrow-clockwise me-2"></i>
-                    Сбросить фильтры
+                    Reset Filters
                   </button>
                 </div>
               ) : (
@@ -233,7 +238,7 @@ export default function Tour() {
                                                 </li>
                                             </ul>
                                             <h5>
-                                            <Link href="/tour/tour-details">
+                                            <Link href={`/tour/${item.id}`} >
                                                 {item.title}
                                                 </Link>
                                             </h5>
@@ -249,7 +254,7 @@ export default function Tour() {
                                             </ul>
                                             <div className="price">
                                                 <h6>{item.price}<span>/Per day</span></h6>
-                                                <Link href="/tour/tour-details" className="theme-btn style-2">Learn more<i className="bi bi-arrow-right"></i></Link>
+                                                <Link href={`/tour/${item.id}`} className="theme-btn style-2">Learn more<i className="bi bi-arrow-right"></i></Link>
                                             </div>
                                         </div>
                         </div>

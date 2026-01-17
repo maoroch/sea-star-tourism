@@ -27,14 +27,14 @@ const Choose1 = () => {
                             <div className="feature-content">
                                 <div className="section-title">
                                     <span className="sub-title wow fadeInUp">
-                                        Выбирайте туры с нами
+                                        Choose Your Tour
                                     </span>
                                     <h2 className="wow fadeInUp wow" data-wow-delay=".2s">
-                                        Наши менеджеры помогут вам выбрать идеальный тур
+                                        We Help You Choose the Perfect Tour
                                     </h2>
                                 </div>
                                 <p className="wow fadeInUp wow" data-wow-delay=".3s">
-                                    Свяжитесь с нами для получения дополнительной информации. 
+                                    Contact us today to start planning your dream vacation. Let us make your travel dreams a reality!
                                 </p>
                                <div className="feature-area">
 
@@ -45,18 +45,17 @@ const Choose1 = () => {
                                         </div>
                                         <div className="content">
                                             <h5>
-                                                Самый <br></br> захватывающий<br></br> туры
+                                                The most<br />  exciting tours
                                             </h5>
                                         </div>
                                     </div>
-                                                                        <div className="feature-icon-item">
+                                    <div className="feature-icon-item">
                                         <div className="icon">
                                             <Image src="/assets/img/icon/09.svg" alt="img" width={29} height={40}   />
                                         </div>
                                         <div className="content">
                                             <h5>
-                                                Ваше <br/> путешествие <br/>
-                                                 начинается здесь
+                                                The best<br /> travel deals
                                             </h5>
                                         </div>
                                     </div>
@@ -64,7 +63,7 @@ const Choose1 = () => {
                                 </div>
 
                                </div>
-                               <Link href="/contact" className="theme-btn wow fadeInUp wow" data-wow-delay=".9s">Связаться с нами<i className="bi bi-arrow-right"></i></Link>
+                               <Link href="/contact" className="theme-btn wow fadeInUp wow" data-wow-delay=".9s">Contact Us<i className="bi bi-arrow-right"></i></Link>
                             </div>
                         </div>
 

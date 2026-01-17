@@ -21,9 +21,9 @@ const Team1 = () => {
             <div className="container">
                 <div className="section-title text-center">
                     <span className="sub-title wow fadeInUp">
-                        Наша команда
+                        Our Team
                     </span>
-                    <h2 className="wow fadeInUp wow" data-wow-delay=".2s">Гид по турам</h2>
+                    <h2 className="wow fadeInUp wow" data-wow-delay=".2s">Tour Guide</h2>
                 </div>
                 <div className="row">
                 {teamContent.map((item, i) => (

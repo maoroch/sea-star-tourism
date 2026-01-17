@@ -13,7 +13,7 @@ const Feature1 = () => {
                             </div>
                             <div className="content">
                                 <h3>
-                                    Разнообразие туров
+                                    Variety of Tours
                                 </h3>
                             </div>
                         </div>
@@ -25,7 +25,7 @@ const Feature1 = () => {
                             </div>
                             <div className="content">
                                 <h3>
-                                    Лучшие гиды
+                                    Best Guides
                                 </h3>
                             </div>
                         </div>
@@ -37,7 +37,7 @@ const Feature1 = () => {
                             </div>
                             <div className="content">
                                 <h3>
-                                    24/7 Поддержка
+                                    24/7 support
                                 </h3>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ const Feature1 = () => {
                             </div>
                             <div className="content">
                                 <h3>
-                                    Гарантия лучшей цены
+                                    Best Price Guarantee
                                 </h3>
                             </div>
                         </div>

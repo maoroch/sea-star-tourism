@@ -12,7 +12,7 @@ const page = () => {
     <div>
             <BreadCumb
                 bgimg="/assets/img/breadcrumb/breadcrumb.webp"
-                Title="О нас"
+                Title="About Us"
             ></BreadCumb>  
             <About2></About2>   
             <Choose1></Choose1> 

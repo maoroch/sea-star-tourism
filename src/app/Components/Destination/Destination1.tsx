@@ -24,7 +24,7 @@ const Destination1 = async () => {
               Popular Destinations
             </h2>
           </div>
-          <Link href="/tour/tour-details" className="theme-btn">
+          <Link href="/tour/" className="theme-btn">
             Learn More <i className="bi bi-arrow-right"></i>
           </Link>
         </div>
@@ -75,7 +75,7 @@ const Destination1 = async () => {
                     </ul>
 
                     <h5>
-                      <Link href={`/tour/${item.slug}`}>
+                      <Link href={`/tour/${item.id}`}>
                         {item.title}
                       </Link>
                     </h5>
@@ -98,7 +98,7 @@ const Destination1 = async () => {
                         <span>/Per day</span>
                       </h6>
                       <Link
-                        href={`/tour/${item.slug}`}
+                        href={`/tour/${item.id}`}
                         className="theme-btn style-2"
                       >
                         Learn more <i className="bi bi-arrow-right"></i>

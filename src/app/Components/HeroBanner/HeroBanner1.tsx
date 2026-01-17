@@ -8,11 +8,24 @@ import Image from 'next/image';
 const HeroBanner1 = () => {
 
 
-    const heroContent = [
-        {img:'/assets/img/hero/32423422.jpg', subtitle:'Ощути незабываемые эмоции', title:'Путешествуй <br> с удовольствием<br> и без забот'},
-        {img:'/assets/img/hero/234234224.jpg', subtitle:'Каждое путешествие — как мечта', title:'Открой мир с нами — путешествуй легко и с комфортом'},
-        {img:'/assets/img/hero/2352523.jpg', subtitle:'Впечатления, которые остаются навсегда', title:'Твое идеальное путешествие начинается здесь'},
-      ];
+const heroContent = [
+  {
+    img: '/assets/img/hero/32423422.jpg',
+    subtitle: 'Feel unforgettable emotions',
+    title: 'Travel with <br> pleasure and<br> without worries'
+  },
+  {
+    img: '/assets/img/hero/234234224.jpg',
+    subtitle: 'Every journey is like a dream',
+    title: 'Discover the world with us — travel easily and comfortably'
+  },
+  {
+    img: '/assets/img/hero/2352523.jpg',
+    subtitle: 'Experiences that last forever',
+    title: 'Your perfect journey starts here'
+  },
+];
+
 
       useEffect(() => {
         loadBackgroudImages();
@@ -72,16 +85,18 @@ const HeroBanner1 = () => {
                                         <div className="booking-list-area">
                                             <div className="booking-list">
                                                 <div className="icon">
-                                                    <Image src="/assets/img/hero/icon-1.png" alt="img" width={24} height={24}   />
+                                                    <Image src="/assets/img/hero/icon-1.png" alt="img" width={24} height={24} />
                                                 </div>
                                                 <div className="content">
-                                                    <h6>Страны</h6>
+                                                    <h6>
+                                                        Countries
+                                                    </h6>
                                                     <div className="form">
                                                         <select className="single-select w-100">
-                                                            <option>Китай</option>
-                                                            <option>ОАЭ</option>
-                                                            <option>Грузия</option>
-                                                            <option>Узбекистан</option>
+                                                            <option>China</option>
+                                                            <option>UAE</option>
+                                                            <option>Georgia</option>
+                                                            <option>Uzbekistan</option>
                                                         </select>
                                                     </div>
                                                 </div>
@@ -111,7 +126,7 @@ const HeroBanner1 = () => {
                                                     <Image src="/assets/img/hero/icon-3.png" alt="img" width={24} height={24}   />
                                                 </div>
                                                 <div className="content">
-                                                    <h6>Даты</h6>
+                                                    <h6>Dates</h6>
                                                     <div className="form-clt">
                                                         <input type="date" id="date1" name="date1" />
                                                     </div>
@@ -119,10 +134,10 @@ const HeroBanner1 = () => {
                                             </div>
                                             <div className="booking-list">
                                                 <div className="icon">
-                                                    <Image src="/assets/img/hero/icon-3.png" alt="img" width={24} height={24}   />
+                                                    <Image src="/assets/img/hero/icon-3.png" alt="img" width={24} height={24}    />
                                                 </div>
                                                 <div className="content">
-                                                    <h6>Пассажиры</h6>
+                                                    <h6>Passengers</h6>
                                                     <div className="form">
                                                         <select className="single-select w-100">
                                                             <option>01</option>
@@ -133,22 +148,24 @@ const HeroBanner1 = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <button className="theme-btn" type="submit">Искать</button>
+                                            <button className="theme-btn" type="submit">Search</button>
                                         </div>
                                     </div>
                                     <div className="counter-area">
                                         <div className="counter-items">
                                             <div className="counter-text">
-                                                <h2><span className="count">500 </span>тыс</h2>
-                                                <p>туров</p>
+                                                <h2><span className="count">500 </span>k</h2>
+                                                <p>
+                                                    Tours
+                                                </p>
                                             </div>
                                             <div className="counter-text">
-                                                <h2><span className="count">100.5</span>тыс</h2>
-                                                <p>Отелей</p>
+                                                <h2><span className="count">100.5</span>k</h2>
+                                                <p>Hotels</p>
                                             </div>
                                             <div className="counter-text">
-                                                <h2><span className="count">15 </span>тыс</h2>
-                                                <p>Довольных клиентов</p>
+                                                <h2><span className="count">15 </span>k</h2>
+                                                <p>Happy Clients</p>
                                             </div>
                                         </div>
                                     </div>
