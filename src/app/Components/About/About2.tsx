@@ -72,7 +72,7 @@ Travel with Confidence and Explore the World Like Never Before                  
                                     </div>
                                 </div>
                                 */}
-                                <Link href="/about" className="theme-btn mt-4 wow fadeInUp wow" data-wow-delay=".7s">Start Your Adventure
+                                <Link href="/tour" className="theme-btn mt-4 wow fadeInUp wow" data-wow-delay=".7s">Start Your Adventure
 <i className="bi bi-arrow-right"></i></Link>
                             </div>
                         </div>

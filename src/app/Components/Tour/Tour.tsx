@@ -384,14 +384,14 @@ export default function Tour() {
                     <div className="d-flex justify-content-between align-items-center mb-3">
                       <div className="text-center">
                         <div className="fs-5 fw-bold text-primary">${priceRange.min}</div>
-                        <div className="text-muted small">Мин.</div>
+                        <div className="text-muted small">Min.</div>
                       </div>
                       <div className="mx-3 text-muted">
                         <i className="bi bi-arrow-left-right"></i>
                       </div>
                       <div className="text-center">
                         <div className="fs-5 fw-bold text-primary">${priceRange.max}</div>
-                        <div className="text-muted small">Макс.</div>
+                        <div className="text-muted small">Max.</div>
                       </div>
                     </div>
                     
@@ -482,18 +482,18 @@ export default function Tour() {
                   {availableCountries.length === 0 && !loading && (
                     <div className="text-center py-3 text-muted">
                       <i className="bi bi-globe fs-4 d-block mb-2"></i>
-                      Загрузка стран...
+                      Loading countries...
                     </div>
                   )}
                 </div>
 
-                {/* Активные фильтры */}
+                {/* Active Filters */}
                 {(selectedCountries.length > 0 || priceRange.min > 0) && (
                   <div className="single-sidebar-widget">
                     <div className="wid-title mb-3">
                       <h4 className="d-flex align-items-center">
                         <i className="bi bi-funnel me-2"></i>
-                        Активные фильтры
+                        Active Filters
                       </h4>
                     </div>
                     <div className="active-filters p-3 bg-light rounded">
@@ -517,7 +517,7 @@ export default function Tour() {
                       {priceRange.min > 0 && (
                         <div className="mb-3">
                           <div className="d-flex justify-content-between align-items-center mb-1">
-                            <span className="text-muted">Цена:</span>
+                            <span className="text-muted">Price:</span>
                             <button 
                               className="btn btn-sm btn-link text-danger p-0"
                               onClick={() => setPriceRange(prev => ({ ...prev, min: 0 }))}
@@ -526,9 +526,9 @@ export default function Tour() {
                             </button>
                           </div>
                           <div className="d-flex align-items-center gap-2">
-                            <span className="badge bg-success">От ${priceRange.min}</span>
+                            <span className="badge bg-success">From ${priceRange.min}</span>
                             <span className="text-muted">—</span>
-                            <span className="badge bg-success">До ${priceRange.max}</span>
+                            <span className="badge bg-success">To ${priceRange.max}</span>
                           </div>
                         </div>
                       )}
@@ -538,7 +538,7 @@ export default function Tour() {
                         className="btn btn-outline-danger w-100 d-flex justify-content-center align-items-center"
                       >
                         <i className="bi bi-trash me-2"></i>
-                        Очистить все фильтры
+                        Clear All Filters
                       </button>
                     </div>
                   </div>

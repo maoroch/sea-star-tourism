@@ -129,7 +129,7 @@ export default function Header3({ variant } : any ) {
                 <div className="search-cell">
                     <form method="get">
                         <div className="search-field-holder">
-                            <input type="search" className="main-search-input" placeholder="Поиск туров..." />
+                            <input type="search" className="main-search-input" placeholder="Search..." />
                         </div>
                     </form>
                 </div>
