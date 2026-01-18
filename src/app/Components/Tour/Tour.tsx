@@ -330,55 +330,6 @@ export default function Tour() {
                     </div>
                   </div>
                   <div className="price-range-slider p-3 bg-light rounded">
-                    {/* Ползунки */}
-<div className="range-slider-container position-relative mb-3" style={{ height: '30px' }}>
-  {/* Фоновый трек */}
-  <div className="position-absolute w-100" style={{ top: '14px' }}>
-    <div className="bg-secondary bg-opacity-25" style={{ height: '4px', borderRadius: '2px' }}></div>
-  </div>
-
-  {/* Выделенный диапазон */}
-  <div 
-    className="position-absolute bg-primary"
-    style={{
-      top: '14px',
-      height: '4px',
-      borderRadius: '2px',
-      left: `${(priceRange.min / priceRange.max) * 100}%`,
-      width: `${((priceRange.max - priceRange.min) / priceRange.max) * 100}%`,
-      zIndex: 2
-    }}
-  />
-
-  {/* Ползунок мин */}
-  <input
-    type="range"
-    min="0"
-    max={priceRange.max}
-    step="1"
-    value={priceRange.min}
-    onChange={(e) => setPriceRange(prev => ({
-      ...prev,
-      min: Math.min(Number(e.target.value), prev.max - 10)
-    }))}
-    className="range-input range-min"
-  />
-
-  {/* Ползунок макс */}
-  <input
-    type="range"
-    min="0"
-    max={priceRange.max}
-    step="1"
-    value={priceRange.max}
-    onChange={(e) => setPriceRange(prev => ({
-      ...prev,
-      max: Math.max(Number(e.target.value), prev.min + 10)
-    }))}
-    className="range-input range-max"
-  />
-</div>
-
                     
                     {/* Значения */}
                     <div className="d-flex justify-content-between align-items-center mb-3">

@@ -2,7 +2,7 @@
   {
     "id": "tour-001",
     "title": "Antalya 7-Day Beach Holiday",
-    "img": "/images/antalya-1.jpg",
+    "img": "https://images.unsplash.com/photo-1735654008107-1051cafe5a16?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Antalya, Turkey",
     "rating": 4.6,
     "day": "7 Days",
@@ -14,7 +14,7 @@
   {
     "id": "tour-002",
     "title": "Antalya Premium 5★ All Inclusive",
-    "img": "/images/antalya-2.jpg",
+    "img": "https://images.unsplash.com/photo-1648644788905-6f13219b59fe?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Antalya, Turkey",
     "rating": 4.9,
     "day": "10 Days",
@@ -26,7 +26,7 @@
   {
     "id": "tour-003",
     "title": "Budget City Break in Istanbul",
-    "img": "/images/istanbul.jpg",
+    "img": "https://images.unsplash.com/photo-1622715441192-9a8c509d4698?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Istanbul, Turkey",
     "rating": 4.3,
     "day": "4 Days",
@@ -38,7 +38,7 @@
   {
     "id": "tour-004",
     "title": "Dubai: Beach & City Experience",
-    "img": "/images/dubai-1.jpg",
+    "img": "https://images.unsplash.com/photo-1682410601760-6372fd33ad2b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Dubai, UAE",
     "rating": 4.8,
     "day": "7 Days",
@@ -50,7 +50,7 @@
   {
     "id": "tour-005",
     "title": "Dubai Luxury 5★ Experience",
-    "img": "/images/dubai-2.jpg",
+    "img": "https://images.unsplash.com/photo-1586611292717-f828b167408c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Dubai, UAE",
     "rating": 5.0,
     "day": "9 Days",
@@ -62,7 +62,7 @@
   {
     "id": "tour-006",
     "title": "Phuket 8-Day Tropical Escape",
-    "img": "/images/phuket.jpg",
+    "img": "https://images.unsplash.com/photo-1586968425481-3285b99f3b44?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Phuket, Thailand",
     "rating": 4.7,
     "day": "8 Days",
@@ -74,7 +74,7 @@
   {
     "id": "tour-007",
     "title": "Bangkok & Phuket Combo Tour",
-    "img": "/images/bangkok.jpg",
+    "img": "https://images.unsplash.com/photo-1566830646346-908d87490bba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Bangkok, Thailand",
     "rating": 4.8,
     "day": "12 Days",
@@ -86,7 +86,7 @@
   {
     "id": "tour-008",
     "title": "Georgia: Tbilisi & Mountains",
-    "img": "/images/tbilisi.jpg",
+    "img": "https://images.unsplash.com/photo-1561731172-e6a4d2a9a409?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Tbilisi, Georgia",
     "rating": 4.5,
     "day": "6 Days",
@@ -98,7 +98,7 @@
   {
     "id": "tour-009",
     "title": "Georgia Gastronomy Tour",
-    "img": "/images/georgia-food.jpg",
+    "img": "https://images.pexels.com/photos/17628563/pexels-photo-17628563/free-photo-of-traditional-georgian-meal.jpeg",
     "location": "Kutaisi, Georgia",
     "description": "A culinary journey through Georgia's wine region. Visit local vineyards, participate in cooking classes, explore food markets, and taste traditional dishes like khinkali and khachapuri. Perfect for food and wine enthusiasts looking to experience authentic Georgian culture.",
     "rating": 4.6,
@@ -110,7 +110,7 @@
   {
     "id": "tour-010",
     "title": "Rome & Vatican Highlights",
-    "img": "/images/rome.jpg",
+    "img": "https://images.pexels.com/photos/11750541/pexels-photo-11750541.jpeg",
     "location": "Rome, Italy",
     "rating": 4.7,
     "day": "5 Days",
@@ -122,7 +122,7 @@
   {
     "id": "tour-011",
     "title": "Italy: Rome & Florence",
-    "img": "/images/florence.jpg",
+    "img": "https://images.pexels.com/photos/20406218/pexels-photo-20406218.jpeg",
     "location": "Florence, Italy",
     "rating": 4.8,
     "day": "8 Days",
@@ -134,7 +134,7 @@
   {
     "id": "tour-012",
     "title": "Paris: City of Love",
-    "img": "/images/paris.jpg",
+    "img": "https://images.pexels.com/photos/4028795/pexels-photo-4028795.jpeg",
     "location": "Paris, France",
     "rating": 4.9,
     "day": "4 Days",
@@ -146,7 +146,7 @@
   {
     "id": "tour-013",
     "title": "Barcelona City Break",
-    "img": "/images/barcelona.jpg",
+    "img": "https://images.unsplash.com/photo-1644775459945-76bf1d3ee3fd?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Barcelona, Spain",
     "rating": 4.6,
     "day": "5 Days",
@@ -158,7 +158,7 @@
   {
     "id": "tour-014",
     "title": "Maldives Paradise Escape",
-    "img": "/images/maldives.jpg",
+    "img": "https://images.unsplash.com/photo-1697898109604-e06e88b15271?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Malé, Maldives",
     "rating": 5.0,
     "day": "7 Days",
@@ -170,7 +170,7 @@
   {
     "id": "tour-015",
     "title": "Sri Lanka: Ocean & Tea Plantations",
-    "img": "/images/srilanka.jpg",
+    "img": "https://images.unsplash.com/photo-1653959699604-1eb000740b57?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Colombo, Sri Lanka",
     "rating": 4.7,
     "day": "10 Days",
@@ -182,7 +182,7 @@
   {
     "id": "tour-016",
     "title": "Bali: Surf & Relax",
-    "img": "/images/bali.jpg",
+    "img": "https://images.unsplash.com/photo-1704312434652-4fe0d8a69279?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Bali, Indonesia",
     "rating": 4.9,
     "day": "9 Days",
@@ -194,7 +194,7 @@
   {
     "id": "tour-017",
     "title": "Cyprus Family Holiday",
-    "img": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+    "img": "https://images.unsplash.com/photo-1622632983419-53f7c2737d23?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Larnaca, Cyprus",
     "rating": 4.4,
     "day": "7 Days",
@@ -206,7 +206,7 @@
   {
     "id": "tour-018",
     "title": "Prague Weekend Escape",
-    "img": "https://images.unsplash.com/photo-1768185595034-69de2bfe7848?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "img": "https://images.unsplash.com/photo-1562748495-aad29475c418?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Prague, Czech Republic",
     "rating": 4.5,
     "day": "3 Days",
@@ -218,7 +218,7 @@
   {
     "id": "tour-019",
     "title": "Vietnam: Hanoi & Nha Trang",
-    "img": "/images/vietnam.jpg",
+    "img": "https://images.unsplash.com/photo-1643029891412-92f9a81a8c16?q=80&w=2972&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Nha Trang, Vietnam",
     "rating": 4.7,
     "day": "11 Days",
@@ -230,7 +230,7 @@
   {
     "id": "tour-020",
     "title": "Japan: Tokyo & Kyoto",
-    "img": "/images/japan.jpg",
+    "img": "https://images.unsplash.com/photo-1542684685460-37b26391c20d?q=80&w=2041&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "location": "Tokyo, Japan",
     "rating": 4.9,
     "day": "10 Days",
