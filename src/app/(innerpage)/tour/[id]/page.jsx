@@ -99,7 +99,7 @@ export default function TourDetailsPage() {
     <h3>Tour Highlights</h3>
     <div className="activities-item">
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-7">
           <ul className="activities-list">
             {tour.highlights.slice(0, 3).map((highlight, index) => (
               <li key={index} className="mb-3">
@@ -266,7 +266,8 @@ export default function TourDetailsPage() {
                     </div>
                   </div>
                 </div>
-                <div className="map-area">
+{/**
+ *                 <div className="map-area">
                   <h3>View in Map</h3>
                   <div className="google-map">
                     <iframe
@@ -537,7 +538,7 @@ export default function TourDetailsPage() {
                       </div>
                     </div>
                   </form>
-                </div>
+                </div>  */}
               </div>
             </div>
             <div className="col-12 col-lg-4">
