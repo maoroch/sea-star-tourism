@@ -1,31 +1,8 @@
 'use client';
 
-import { useParams } from 'next/navigation';
 import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import loadBackgroudImages from '../../../Components/Common/loadBackgroudImages'; // Предполагаем, что этот файл существует в вашем проекте
-
-export default function TourDetailsPage() {
-  const { id } = useParams(); // получаем id из url, например /tour/tour-001
-  const [tour, setTour] = useState(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    fetch('/data/tours.json')
-      .then(res => res.json())
-      .then(data => {
-        const found = data.find(item => item.id === id);
-        setTour(found || null);
-      })
-      .finally(() => setLoading(false));
-  }, [id]);
-
-  useEffect(() => {
-    if (!loading && tour) {
-      loadBackgroudImages();
-    }
-  }, [loading, tour]);
 
 const faqContent = [
   {
@@ -49,10 +26,31 @@ const faqContent = [
       'Cancellation policies depend on the selected tour and service providers. Please contact us for detailed information regarding cancellations, refunds, and applicable fees.'
   }
 ];
-
-  const accordionContentRef = useRef(null);
+export default function TourDetailsClient({ initialTour, id }) {
+  const [tour, setTour] = useState(initialTour);
+  const [loading, setLoading] = useState(!initialTour);
   const [openItemIndex, setOpenItemIndex] = useState(-1);
   const [firstItemOpen, setFirstItemOpen] = useState(true);
+  const accordionContentRef = useRef(null);
+
+  useEffect(() => {
+    if (!initialTour) {
+      fetch('/data/tours.json')
+        .then(res => res.json())
+        .then(data => {
+          const found = data.find(item => item.id === id);
+          setTour(found || null);
+        })
+        .finally(() => setLoading(false));
+    }
+  }, [id, initialTour]);
+
+  useEffect(() => {
+    if (firstItemOpen) {
+      setOpenItemIndex(0);
+      setFirstItemOpen(false);
+    }
+  }, [firstItemOpen]);
 
   const handleItemClick = index => {
     if (index === openItemIndex) {
@@ -61,13 +59,6 @@ const faqContent = [
       setOpenItemIndex(index);
     }
   };
-
-  useEffect(() => {
-    if (firstItemOpen) {
-      setOpenItemIndex(0);
-      setFirstItemOpen(false);
-    }
-  }, [firstItemOpen]);
 
   if (loading) {
     return (

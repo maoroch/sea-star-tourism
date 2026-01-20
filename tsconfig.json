@@ -17,6 +17,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
+        "baseUrl": ".",                // <-- добавляем базовый путь
+    "paths": {                     // <-- добавляем алиас
+      "@/*": ["src/*"]
+    },
     "plugins": [
       {
         "name": "next"
