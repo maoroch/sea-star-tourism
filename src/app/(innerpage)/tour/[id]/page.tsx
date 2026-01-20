@@ -1,5 +1,4 @@
 import TourDetailsPage from './TourDetailsClient';
-// import { getTourData } from '../../../../../lib/tourData';
 import { getTourData } from '@/lib/tourData';
 
 // Серверный компонент для получения данных

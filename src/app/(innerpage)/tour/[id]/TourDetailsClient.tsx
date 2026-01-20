@@ -581,11 +581,17 @@ export default function TourDetailsClient({ initialTour, id }) {
                     </div>
                   </div>
                 </div>
-                <div className="booking-bg bg-cover" data-background="/assets/img/destails/bg3.jpg">
-                  <h3 className="text-title">
-                    Book Now And Enjoy Amazing Savings!
-                  </h3>
-                </div>
+<div
+  className="booking-bg bg-cover"
+  style={{
+    backgroundImage: "url('/assets/img/destails/bg3.jpg')"
+  }}
+>
+  <h3 className="text-title">
+    Book Now And Enjoy Amazing Savings!
+  </h3>
+</div>
+
               </div>
             </div>
           </div>
