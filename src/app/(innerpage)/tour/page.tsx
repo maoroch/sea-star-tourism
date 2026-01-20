@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import BreadCumb from '../../Components/Common/BreadCumb';
 import Tour from '../../Components/Tour/Tour';
