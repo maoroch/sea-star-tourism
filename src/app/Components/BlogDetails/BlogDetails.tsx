@@ -11,10 +11,12 @@ const BlogDetails = () => {
     }, []);
 
     return (
-        <section className="news-details fix section-padding">
+    <section className="news-details fix section-padding">
+                  <div className='nav-substrate'></div>
+
         <div className="container">
             <div className="news-details-area">
-                <div className="row g-5">
+                <div className="row g-5 justify-content-center">
                     <div className="col-12 col-lg-8">
                         <div className="blog-post-details">
                             <div className="single-blog-post">
@@ -34,18 +36,17 @@ const BlogDetails = () => {
                                             <i className="fa-regular fa-user"></i>
                                             By Admin
                                         </li>
-                                        <li>
-                                            <i className="fa-regular fa-comment"></i>
-                                            2 Comments
-                                        </li>
+
                                         <li>
                                             <i className="fa-solid fa-tag"></i>
                                             Tour
                                         </li>
                                     </ul>
-                                    <h3>
+                                    <h2>
+                                    <b>
                                         Get Best Advertiser in Your Side Pocket
-                                    </h3>
+                                    </b>
+                                    </h2>
                                     <p className="mb-3">
                                         Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
                                         dolore of magna aliqua. Ut enim ad minim veniam, made of owl the quis nostrud
@@ -118,6 +119,7 @@ const BlogDetails = () => {
                                     </div>
                                 </div>
                             </div>
+{/*
                             <div className="comments-area">
                                 <div className="comments-heading">
                                     <h3>02 Comments</h3>
@@ -192,8 +194,10 @@ const BlogDetails = () => {
                                     </div>
                                 </form>
                             </div>
+*/}
                         </div>
                     </div>
+{/*
                     <div className="col-12 col-lg-4">
                         <div className="main-sideber">
                             <div className="single-sidebar-widget">
@@ -306,6 +310,7 @@ const BlogDetails = () => {
                             </div>
                         </div>
                     </div>
+*/}
                 </div>
             </div>
         </div>

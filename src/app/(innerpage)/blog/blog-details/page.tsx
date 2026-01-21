@@ -4,11 +4,7 @@ import BlogDetails from '../../../Components/BlogDetails/BlogDetails';
 
 const page = () => {
   return (
-    <div>
-             <BreadCumb
-                bgimg="/assets/img/breadcrumb/breadcrumb.jpg"
-                Title="Blog Details"
-            ></BreadCumb>     
+    <div>    
             <BlogDetails></BlogDetails>          
     </div>
   );

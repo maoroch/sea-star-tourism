@@ -15,6 +15,8 @@ const Blog4 = () => {
 
     return (
         <section className="news-section section-padding fix">
+                  <div className='nav-substrate'></div>
+            
             <div className="container">
                 <div className="row g-4">
                 {blogContent.map((item, i) => (

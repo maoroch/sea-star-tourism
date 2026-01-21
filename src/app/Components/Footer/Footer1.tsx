@@ -62,6 +62,7 @@ const Footer1 = () => {
                                             About Us
                                         </Link>
                                     </li>
+{/*
                                     <li>
                                         <Link href="/blog">
                                             Blog
@@ -72,9 +73,15 @@ const Footer1 = () => {
                                             Destinations
                                         </Link>
                                     </li>
+*/}
                                     <li>
                                         <Link href="/tour">
                                             Tours
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/tour">
+                                            Contact
                                         </Link>
                                     </li>
                                 </ul>

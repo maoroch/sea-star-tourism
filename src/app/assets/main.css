@@ -10107,3 +10107,18 @@ input.main-search-input::placeholder {
 .range-slider-container input[type="range"]::-ms-thumb {
   pointer-events: all;
 }
+.nav-substrate {
+  background-color: #1ca8cb;
+  height: 90px;
+  width: 100%;
+  margin-top: -120px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-substrate {
+    height: 100px;
+    margin-top: -100px;
+    margin-bottom: 30px;
+  }
+}
